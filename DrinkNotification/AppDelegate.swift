@@ -12,13 +12,13 @@ import UserNotifications
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    var userNotificationCenter: UNUserNotificationCenter?
+    var userNotificationCenter = UNUserNotificationCenter.current()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         UNUserNotificationCenter.current().delegate = self
         
         let authorizationOptions = UNAuthorizationOptions(arrayLiteral: [.alert, .badge, .sound])
-        userNotificationCenter?.requestAuthorization(options: authorizationOptions) { _, error in
+        userNotificationCenter.requestAuthorization(options: authorizationOptions) { _, error in
             if let error = error {
                 print("Error: notification authorization request \(error.localizedDescription)")
             }
