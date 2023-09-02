@@ -13,6 +13,10 @@
 		86AC2E3C2AA22FBE006BB8A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86AC2E3B2AA22FBE006BB8A8 /* Assets.xcassets */; };
 		86AC2E3F2AA22FBE006BB8A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86AC2E3D2AA22FBE006BB8A8 /* LaunchScreen.storyboard */; };
 		86AC2E492AA23052006BB8A8 /* AlertListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AC2E482AA23052006BB8A8 /* AlertListViewController.swift */; };
+		86AC2E4C2AA237DA006BB8A8 /* AlertListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AC2E4A2AA237DA006BB8A8 /* AlertListCell.swift */; };
+		86AC2E4D2AA237DA006BB8A8 /* AlertListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86AC2E4B2AA237DA006BB8A8 /* AlertListCell.xib */; };
+		86AC2E4F2AA23BBE006BB8A8 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AC2E4E2AA23BBE006BB8A8 /* Alert.swift */; };
+		86AC2E512AA24FEB006BB8A8 /* AddAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AC2E502AA24FEB006BB8A8 /* AddAlertViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		86AC2E3E2AA22FBE006BB8A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86AC2E402AA22FBE006BB8A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86AC2E482AA23052006BB8A8 /* AlertListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertListViewController.swift; sourceTree = "<group>"; };
+		86AC2E4A2AA237DA006BB8A8 /* AlertListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertListCell.swift; sourceTree = "<group>"; };
+		86AC2E4B2AA237DA006BB8A8 /* AlertListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlertListCell.xib; sourceTree = "<group>"; };
+		86AC2E4E2AA23BBE006BB8A8 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		86AC2E502AA24FEB006BB8A8 /* AddAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlertViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +67,11 @@
 				86AC2E322AA22FBD006BB8A8 /* AppDelegate.swift */,
 				86AC2E342AA22FBD006BB8A8 /* SceneDelegate.swift */,
 				86AC2E482AA23052006BB8A8 /* AlertListViewController.swift */,
+				86AC2E4E2AA23BBE006BB8A8 /* Alert.swift */,
+				86AC2E4A2AA237DA006BB8A8 /* AlertListCell.swift */,
+				86AC2E502AA24FEB006BB8A8 /* AddAlertViewController.swift */,
 				86AC2E382AA22FBD006BB8A8 /* Main.storyboard */,
+				86AC2E4B2AA237DA006BB8A8 /* AlertListCell.xib */,
 				86AC2E3B2AA22FBE006BB8A8 /* Assets.xcassets */,
 				86AC2E3D2AA22FBE006BB8A8 /* LaunchScreen.storyboard */,
 				86AC2E402AA22FBE006BB8A8 /* Info.plist */,
@@ -127,6 +139,7 @@
 			files = (
 				86AC2E3F2AA22FBE006BB8A8 /* LaunchScreen.storyboard in Resources */,
 				86AC2E3C2AA22FBE006BB8A8 /* Assets.xcassets in Resources */,
+				86AC2E4D2AA237DA006BB8A8 /* AlertListCell.xib in Resources */,
 				86AC2E3A2AA22FBD006BB8A8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,7 +153,10 @@
 			files = (
 				86AC2E332AA22FBD006BB8A8 /* AppDelegate.swift in Sources */,
 				86AC2E352AA22FBD006BB8A8 /* SceneDelegate.swift in Sources */,
+				86AC2E4C2AA237DA006BB8A8 /* AlertListCell.swift in Sources */,
+				86AC2E4F2AA23BBE006BB8A8 /* Alert.swift in Sources */,
 				86AC2E492AA23052006BB8A8 /* AlertListViewController.swift in Sources */,
+				86AC2E512AA24FEB006BB8A8 /* AddAlertViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
